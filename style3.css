@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=740&t=st=1679124095~exp=1679124695~hmac=cb019e953ed09ffe2fab164a56d8e92be2ec8f73745f8c136ab749d1f17549cf);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 4px;
+    width: 30rem;
+    background-color: rgb(50, 50, 50);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.container-fluid {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#form {
+    padding: 12px;
+}
+
+input {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
